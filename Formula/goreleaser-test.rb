@@ -3,11 +3,11 @@ class GoreleaserTest < Formula
   homepage "https://example.com/"
 
   
-    url "https://github.com/x/sklevenz/goreleaser-test/releases/download/v0.1.0/goreleaser-test_0.1.0_macOS_64-bit.tar.gz"
+    url "https://github.com/sklevenz/goreleaser-test/releases/download/v0.1.0/goreleaser-test_0.1.0_macOS_64-bit.tar.gz"
   
 
   version "0.1.0"
-  sha256 "fcc600e470109372cf76d140fecb4164b23d15d556cbac8a9118be071d02fcf8"
+  sha256 "cd794f311d76ebd56970df5b3e6e937a4de2be54fce09ea006dcf92ced356463"
 
   def install
     bin.install "goreleaser-test"
