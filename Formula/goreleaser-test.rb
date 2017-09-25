@@ -7,7 +7,7 @@ class GoreleaserTest < Formula
   
 
   version "0.4.0"
-  sha256 "d1cd27438ea6a80ccdec9b6260216724426364675c2f56af169619aa59023ed2"
+  sha256 "9fd50e9562a155015d1103935afadb52f178d61296c04352b2e26067c28df175"
 
   def install
     bin.install "goreleaser-test"
