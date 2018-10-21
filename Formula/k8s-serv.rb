@@ -1,9 +1,9 @@
 class K8sServ < Formula
   desc "Learning github, travis, go, k8s, docker ..."
   homepage "https://github.com/sklevenz/k8s-serv"
-  url "https://github.com/sklevenz/k8s-serv/releases/download/0.2.0/k8s-serv_0.2.0_Darwin_x86_64.tar.gz"
-  version "0.2.0"
-  sha256 "5f73559603b7bece7acf209b69edc873c2c2ac6539cb6ec7ed8c7f61f7b5b9dc"
+  url "https://github.com/sklevenz/k8s-serv/releases/download/0.3.0/k8s-serv_0.3.0_Darwin_x86_64.tar.gz"
+  version "0.3.0"
+  sha256 "ae1b1a625296c9e54b891281de4be096e7bde91450ed176043ebe59d027676ee"
 
   def install
     bin.install "k8s-serv"
