@@ -3,11 +3,11 @@ class CfRoutingSuite < Formula
   homepage "https://github.com/sklevenz/cf-routing-suite/"
   url "https://github.com/sklevenz/cf-routing-suite/releases/download/0.0.0/cf-routing-suite_0.0.0_macOS_64-bit.tar.gz"
   version "0.0.0"
-  sha256 "70ed6a0ad46b58fc07163a4e344792e5a40307977c27e1c8e64d10411ede7a1c"
+  sha256 "7fd33e80ec3703eb9367e1555c0b95f39ccfe481c8b3e167645d8b1f7d889189"
 
   def install
-    bin.install "cf-routing-suite/cfrs-client"
-    bin.install "cf-routing-suite/cfrs-server"
+    bin.install "cfrs-client"
+    bin.install "cfrs-server"
   end
 
   test do
