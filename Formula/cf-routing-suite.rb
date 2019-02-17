@@ -4,7 +4,7 @@ class CfRoutingSuite < Formula
   homepage "https://github.com/sklevenz/cf-routing-suite/"
   url "https://github.com/sklevenz/cf-routing-suite/releases/download/0.1.1/cf-routing-suite_0.1.1_macOS_64-bit.tar.gz"
   version "0.1.1"
-  sha256 "0228090bb251c2428766ea501225ea00fa86ecfd8864dd95f37c56bf9ff08890"
+  sha256 "7e90de86bfd24e3c59711b95fdf90f2935f98e127d2048b6e63885fedd5ae82e"
 
   def install
     bin.install "cfrs-client"
