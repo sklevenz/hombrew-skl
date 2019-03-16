@@ -2,9 +2,9 @@
 class CfRoutingSuite < Formula
   desc "A suite containing (server) and client for challenging the cloud foundry routing tier."
   homepage "https://github.com/sklevenz/cf-routing-suite/"
-  url "https://github.com/sklevenz/cf-routing-suite/releases/download/0.1.1/cf-routing-suite_0.1.1_macOS_64-bit.tar.gz"
-  version "0.1.1"
-  sha256 "74bf710af780ff2ed903a3da1eaaa72f01bf3f568f6b5e5d55ff1b2115bca373"
+  url "https://github.com/sklevenz/cf-routing-suite/releases/download/0.2.0/cf-routing-suite_0.2.0_macOS_64-bit.tar.gz"
+  version "0.2.0"
+  sha256 "da66945c90d7606b09234b58a0e71f2cb804284f52280bd5abcb5dc29cb45c66"
 
   def install
     bin.install "cfrs-client"
