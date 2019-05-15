@@ -2,9 +2,9 @@
 class Terraformer < Formula
   desc "A go program that generates terraform using go templates ..."
   homepage "https://github.com/sklevenz/terraformer"
-  url "https://github.com/sklevenz/terraformer/releases/download/1.0.1/terraformer_1.0.1_Darwin_x86_64.tar.gz"
-  version "1.0.1"
-  sha256 "7055278cca7285b617c9c1c3407148cb9c0123f5e6dfae4b4b04d89b1c65ba0c"
+  url "https://github.com/sklevenz/terraformer/releases/download/1.0.2/terraformer_1.0.2_Darwin_x86_64.tar.gz"
+  version "1.0.2"
+  sha256 "730d6fda47d7a83866886078ab483a86e4925a11dd7e8541bdef7225254e5009"
 
   def install
     bin.install "terraformer"
