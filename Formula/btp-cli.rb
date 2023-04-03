@@ -1,4 +1,4 @@
-class BTPCli < Formula
+class BtpCli < Formula
   desc "SAP BTP Platfom CLI"
   homepage "https://tools.hana.ondemand.com/#cloud-btpcli"
   url "https://tools.hana.ondemand.com/additional/btp-cli-darwin-arm64-2.38.0.tar.gz"
